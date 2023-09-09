@@ -1,0 +1,54 @@
+.two-radio .ui-radio {
+	width: 50.0%;
+}
+.three-radio .ui-radio {
+  width: 33.33%;
+}
+
+.two-radio .ui-controlgroup-controls, .three-radio .ui-controlgroup-controls {
+	width: 100%;
+}
+
+div.ui-grid-solo, div.ui-grid-a, div.ui-grid-b {
+    padding: 0px;
+    margin:  0px;
+}
+
+div.ui-grid-a div.ui-block-a{
+    padding-right: 5px;
+}
+
+div.ui-grid-a div.ui-block-b{
+    padding-left: 5px;
+}
+
+span.ui-btn-text, lable, legend {
+    font-family: Trebuchet MS;
+    font-weight: bold;
+}
+
+body, html{
+	    font-family: Trebuchet MS;
+}
+
+div#panel{
+    font-weight: normal;
+}
+
+#confirm p {
+    color: #fff;
+    text-shadow: 0 1px 1px rgba(0,0,0,.6);
+    margin-bottom: .75em;
+}
+/* Make the buttons inherit the popup border-radius (.ui-corner-all) */
+#confirm div, #confirm .ui-btn-corner-all {
+    -webkit-border-radius: inherit;
+    border-radius: inherit;
+}
+#confirm #cancel {
+    background-image: none;
+}
+#confirm .topic.ui-li-desc {
+    font-size: inherit; /* The cloned topic will have class ui-li-desc so we negate the font-size settings of this class */
+    text-align: center;
+}
